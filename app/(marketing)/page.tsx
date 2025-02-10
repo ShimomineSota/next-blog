@@ -26,11 +26,11 @@ export default function IndexPage() {
 						>
 							はじめる
 						</Link>
-                        <Link
+						<Link
 							href={"/"}
 							className={cn(buttonVariants({ size: "lg", variant: "outline" }))}
-                            target="_blank"
-                            rel="noreferrer"
+							target="_blank"
+							rel="noreferrer"
 						>
 							Github
 						</Link>
