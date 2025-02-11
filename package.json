@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "check": "biome check ./app ./components ./.devcontainer",
-    "fix": "biome check --write ./app ./components ./.devcontainer"
+    "check": "biome check ./app ./components ./config ./types ./.devcontainer",
+    "fix": "biome check --write ./app ./components ./config ./types ./.devcontainer"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.2",
