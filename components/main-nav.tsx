@@ -3,14 +3,14 @@
 import type { NavItem } from "@/types";
 import Link from "next/link";
 import type React from "react";
-import { type FC, useState } from "react";
+import { type FC, type JSX, type PropsWithChildren, useState } from "react";
 import MobileNav from "./mobile-nav";
 
 interface Props {
 	items?: NavItem[];
 }
 
-const MainNav: FC<Props> = ({ items }) => {
+export default function MainNav({ items }: Props): JSX.Element {
 	const [showMobileMenu, setShowMobileMenu] = useState<boolean>(false);
 
 	return (
@@ -39,6 +39,4 @@ const MainNav: FC<Props> = ({ items }) => {
 			{showMobileMenu && <MobileNav items={items} />}
 		</div>
 	);
-};
-
-export default MainNav;
+}
