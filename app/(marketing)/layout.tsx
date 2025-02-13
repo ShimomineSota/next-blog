@@ -9,7 +9,7 @@ export default function MarketingLayout({ children }: PropsWithChildren) {
 	return (
 		<div>
 			<header className="container mx-auto z-40 bg-background">
-				<div className="h-20 px-3 sm:px-10 py-6 flex items-center justify-between">
+				<div className="h-20 px-3 md:px-5 py-6 flex items-center justify-between">
 					<MainNav items={marketingConfig.MainNav} />
 					<nav>
 						<Link
