@@ -3,7 +3,7 @@
 import type { NavItem } from "@/types";
 import Link from "next/link";
 import type React from "react";
-import { type FC, type JSX, type PropsWithChildren, useState } from "react";
+import { type JSX, useState } from "react";
 import MobileNav from "./mobile-nav";
 
 interface Props {

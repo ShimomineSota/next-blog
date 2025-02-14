@@ -1,7 +1,7 @@
 import { siteConfig } from "@/config/site";
 import type { NavItem } from "@/types";
 import Link from "next/link";
-import type { FC, JSX } from "react";
+import type { JSX } from "react";
 
 interface Props {
 	items?: NavItem[];
