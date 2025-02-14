@@ -6,7 +6,7 @@ export const marketingConfig = {
 		},
 		{
 			title: "特徴",
-			href: "#feature",
+			href: "#features",
 		},
 		{
 			title: "価格",
