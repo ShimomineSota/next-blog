@@ -6,7 +6,6 @@
 			"extensions": [
 				"bradlc.vscode-tailwindcss",
 				"prisma.prisma",
-				"github.copilot",
 				"streetsidesoftware.code-spell-checker"
 			]
 		}
